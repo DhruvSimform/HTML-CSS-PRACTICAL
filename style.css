@@ -141,10 +141,12 @@ main{
 main .container-main{
     background-color: white;
     width: 85vw;
-    height: 50vh;
+    height: 35vh;
     margin: auto;
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
+    margin-top: 20px;
     /* padding-bottom: 10px; */
+    box-sizing: border-box;
 
     
 }
@@ -206,29 +208,53 @@ main .container-main{
     justify-content: start;
     overflow-x: scroll;
     /* align-items: center; */
-    margin: 50px;
+    margin: 20px;
+    /* margin-top: 20px; */
     gap: 35px;
     padding-bottom: 15px;
+    text-wrap: nowrap;
     
     
 }
 
 .container-main .products .card{
-    background-color: aqua;
-    max-width: 150px;
-    min-width: 150px;
-    height: 18vh;
+    /* background-color: aqua; */
+    max-width: 160px;
+    min-width: 160px;
+    height: 26vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* box-sizing: border-box; */
-    text-decoration: none;
+    overflow-x: hidden;
 }
 
 .container-main .products .card img{
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
+    object-fit:contain;
 }
+.container-main .products .card .p-1{
+    /* padding:0px; */
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 16px;
+
+}
+
+.container-main .products .card .p-2{
+    color: rgb(67, 201, 67);
+    padding-bottom: 5px;
+
+}
+
+.container-main .products .card .p-3{
+    color: rgb(156, 151, 151);
+
+}
+
 
 
 
