@@ -84,6 +84,50 @@
 }
 
 
+.container
+{
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    padding: 20px 0px;
+    gap: max(10px);
+
+}
+
+
+
+.category a{
+    text-decoration: none;
+    color: black;
+    width: 5vw;
+    text-align: left;
+} 
+
+.category a p{
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+} 
+
+.category a img{
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+} 
+
+
+
+
+
+
 
 
 
